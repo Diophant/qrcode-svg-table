@@ -6,6 +6,7 @@ This library has been written to generate a SVG image of QR Code in Node.js, goa
 - no browser requirement
 - no external dependencies
 - generate SVG output
+- generate output as HTML table, useful for email
 
 ## Getting Started
 
@@ -15,11 +16,18 @@ Install the package:
 npm install qrcode-svg-table
 ```
 
-Inline example:
+Inline example SVG:
 
 ```javascript
 var QRCode = require('qrcode-svg-table');
 var svg = new QRCode('Hello World!').svg();
+```
+
+Inline example HTML table:
+
+```javascript
+const QRCode = require('qrcode-svg-table');
+const table = new QRCode('Hello World!').table();
 ```
 
 More options:
@@ -278,6 +286,8 @@ Use on a HTML page with JavaScript
 ```
 
 ## Thanks
+
+Thank you to [papnkukn](https://github.com/papnkukn/qrcode-svg) who, building on earlier work, made the SVG version.
 
 Thanks to [davidshimjs](https://github.com/davidshimjs/qrcodejs) for the base library.
 
