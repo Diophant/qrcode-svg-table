@@ -1,6 +1,6 @@
 {
   "name": "qrcode-svg-table",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A QR Code generator in pure JavaScript",
   "author": "igorshmukler",
   "license": "MIT",
@@ -18,12 +18,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Diophant/qrcode-svg"
+    "url": "git+https://github.com/Diophant/qrcode-svg-table"
   },
   "bugs": {
-    "url": "https://github.com/Diophant/qrcode-svg/issues"
+    "url": "https://github.com/Diophant/qrcode-svg-table/issues"
   },
-  "homepage": "https://github.com/Diophant/qrcode-svg",
+  "homepage": "https://github.com/Diophant/qrcode-svg-table",
   "devDependencies": {
     "husky": "^4.3.0",
     "minify": "^4.1.3",
